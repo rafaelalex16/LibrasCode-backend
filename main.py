@@ -2,11 +2,12 @@ from fastapi import FastAPI, WebSocket
 
 
 # iniciando framework fastapi
-api_librascode = FastAPI()
+app = FastAPI()
 
 estudantes=[]
 
 # criando rota endpoint websocket
+@app.websocket('/librasCodeWebsocket')
 async def websocket_endpoint(usuarioConectado: WebSocket):
 
     # Aceita a conexão do usuário
