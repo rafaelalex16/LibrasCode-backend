@@ -27,7 +27,6 @@ Clone o repositório e instale as dependências necessárias:
 ```bash
 ### Criar ambiente virtual 
 
-```bash
 python3 -m venv venv
 ```
 
