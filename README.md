@@ -25,7 +25,31 @@ Certifique-se de ter o [Python](https://www.python.org/) instalado em sua máqui
 ### 2. Instalação
 Clone o repositório e instale as dependências necessárias:
 ```bash
+
+# Criando e ativando ambiente virtual Python
+
+## Linux / macOS
+
+### Criar ambiente virtual 
+
+```bash
+python3 -m venv venv
+```
+
+### Ativar ambiente virtual no Linux
+
+```bash
+source venv/bin/activate
+```
+
+### Ativar ambiente virtual no Windows
+
+```bash
+venv\Scripts\activate
+```
+
 # Instalar dependências
+
 pip install -r requirements.txt 
 ``` 
 
