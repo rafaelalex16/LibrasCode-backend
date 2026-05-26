@@ -25,11 +25,6 @@ Certifique-se de ter o [Python](https://www.python.org/) instalado em sua máqui
 ### 2. Instalação
 Clone o repositório e instale as dependências necessárias:
 ```bash
-
-# Criando e ativando ambiente virtual Python
-
-## Linux / macOS
-
 ### Criar ambiente virtual 
 
 ```bash
@@ -51,7 +46,7 @@ venv\Scripts\activate
 # Instalar dependências
 
 pip install -r requirements.txt 
-``` 
+ 
 
 ## 🚀 Como Rodar
 1. No diretório do projeto, instale as dependências: `pip install -r requirements.txt`
