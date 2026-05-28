@@ -44,12 +44,15 @@ venv\Scripts\activate
 
 # Instalar dependências
 
-pip install -r requirements.txt 
+1. No diretório do projeto, instale as dependências: 
+
+```bash
+pip install -r requirements.txt``
+```
  
 
 ## 🚀 Como Rodar
-1. No diretório do projeto, instale as dependências: `pip install -r requirements.txt`
-2. Inicie o servidor: `uvicorn main:app --reload --port 8003`
+1. Inicie o servidor: `uvicorn main:app --reload --port 8003`
 
 OBS: é de suma importânia rodar nessa porta, pois é nela que o frontend da aplicação está se conectando com o webSocket para a transmissão ao Vivo da funcionalidade de  aula. 
 
