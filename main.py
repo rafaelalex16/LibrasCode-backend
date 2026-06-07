@@ -1,8 +1,20 @@
 from fastapi import FastAPI, WebSocket
+from fastapi.middleware.cors import CORSMiddleware
+
 
 
 # iniciando framework fastapi
 app = FastAPI()
+
+# configurando cors
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # depois você restringe
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 estudantes=[]
 
