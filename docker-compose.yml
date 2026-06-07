@@ -1,0 +1,7 @@
+services:
+  websocket:
+    build: .
+    container_name: libras-websocket
+    ports:
+      - "8003:8003"
+    restart: unless-stopped
